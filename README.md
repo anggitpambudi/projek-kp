@@ -4,7 +4,7 @@ Winance App
 
 ## Description
 
-Winance merupakan website yang mendata siapa saja yang mendaftar pada website tersebut
+Winance merupakan sebuah website tentang financial advice dimana pada website ini sementara hanya untuk mendata seluruh member yang terdaftar pada website tersebut
 
 ## Author 
 
@@ -12,21 +12,18 @@ Anggit Pambudi Hutomo
 
 ## Penjelasan Program
 
+
 ## Apps
 
-folder apps adalah nanti dimana sebuah project small web dirancang, atau di atur mulai dari controller, model dan view sebagai tampilannya.
+folder apps adalah nanti dimana sebuah project small web dirancang, atau di atur mulai dari http, model, provider.
 
-## config
+## Apps/http
 
-folder config ini mengatur segala configurasi pada database mysqli, membuat constand dan menjalankan config untuk memanggil function connection database.
+Direktori ini merupakan direktori yang dibuat secara khusus untuk menyimpan seluruh file-file yang berkaitan dengan proses request dan response Http.
 
-## database
+## database/migration
 
-folder database ini adalah sebuah cheatsheet sintax mysqli
-
-## controller
-
-folder controller ini adalah bentuk prosedural functional programing
+folder ini berisikan file-file migration yang digenerate oleh laravel pada saat kita menjalankan perintah php artisan make:migration
 
 ## routes
 
