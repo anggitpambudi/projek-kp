@@ -33,10 +33,14 @@ ada 3 sub direktori yaitu controllers, middleware, dan requests.
 
 folder ini berisikan file-file migration yang digenerate oleh laravel pada saat kita menjalankan perintah php artisan make:migration
 
+## public
+
+pada folder ini berisi tentang resource aplikasi yang dapat diakses pada web seperti image, js, dan css.
+
 ## routes
 
 folder routes ini adalah untuk mengatur path atau arah routing pada apps
 
-## view
+## views
 
 folder view ini adalah dimana hal yang berkaitan dengan html atau template yang akan di tampilkan pada halaman user
